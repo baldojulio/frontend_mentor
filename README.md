@@ -3,4 +3,4 @@
 ### Newbies challenges
 
 - Recipe page
-    - URL: https://baldojulio.github.io/frontend_mentor/newbie/recipe-page/
+    - URL: https://baldojulio.github.io/frontend_mentor/newbie/recipe_page/
