@@ -1,0 +1,103 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --darkRaspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --roseWhite: hsl(330, 100%, 98%);
+    --eggShell: hsl(30, 54%, 90%);
+    --lightGrey: hsl(30, 18%, 87%);
+    --wengeBrown: hsl(30, 10%, 34%);
+    --darkCharcoal: hsl(24, 5%, 18%);
+    --ff-young: "Young Serif", serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--eggShell);
+    color: var(--wengeBrown);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+main {
+    background-color: var(--white);
+    padding: 32px;
+}
+
+h1 {
+    color: black;
+}
+
+h1, h2 {
+    font-family: var(--ff-young);
+    line-height: 32px;
+    margin: 24px 0;
+}
+
+h2 {
+    color: var(--nutmeg);
+}
+
+b {
+    color: var(--darkCharcoal);
+}
+
+hr {
+    margin-top: 16px;
+}
+
+/* MAIN */
+.timeSpent {
+    background-color: var(--eggShell);
+    padding: 16px 24px;
+    margin: 24px 0;
+    border-radius: 8px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.timeSpent > h3 {
+    color: var(--darkRaspberry);
+    margin-bottom: 12px;
+}
+
+ul, ol {
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+ul li::marker, ol li::marker {
+    color: var(--nutmeg);
+    font-weight: bold;
+}
+
+ul li, ol li {
+    padding-left: 12px;
+}
+
+/* Nutrition */
+.nutrition_info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 32px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.nutrition_value {
+    color: var(--nutmeg);
+}
