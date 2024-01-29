@@ -115,9 +115,11 @@ ul li, ol li {
     #content {
         max-width: 753px;
         width: 100%;
-        padding: 32px;
+        padding: 40px 40px 29px;
         border-radius: 8px;
         background-color: var(--white);
+        margin-top: clamp(2rem, -1.7917rem + 10.5324vw, 7.6875rem);
+        margin-bottom: clamp(2rem, -1.8333rem + 10.6481vw, 7.75rem);
     }
 
     main {
